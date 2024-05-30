@@ -1,0 +1,18 @@
+[package]
+name = "kysy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+dirs = "5.0.1"
+futures-util = "0.3.30"
+owo-colors = "4.0.0"
+reqwest = { version = "0.12.4", features = ["blocking", "stream"] }
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.117"
+tokio = { version = "1.37.0", features = ["full"] }
+ureq = { version = "2.9.7", features = ["json"] }
+xdg-home = "1.1.0"

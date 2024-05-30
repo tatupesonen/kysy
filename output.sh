@@ -1,0 +1,1 @@
+apt-get autoremove && apt-get autoclean && rm -rf /var/lib/apt/lists/*
